@@ -1,0 +1,9 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}TOPIC I: Anwesenheit/Beschlussf\IeC {\"a}higkeit/Wahl des Versammlungsleiters und Protokollf\IeC {\"u}hrers}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Anwesende Mitglieder}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Beschlussf\IeC {\"a}higkeit \& Wahl von Versammlungsleiter und Protokollf\IeC {\"u}hrer}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Genehmigung der Tagesordnung}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}TOPIC II: Berichte zu Aktivit\IeC {\"a}ten im 1. Halbjahr 2013}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Document Freedom Day [von: \leavevmode {\color {hellgrau.60}\textsl {Andreas Gl\IeC {\"a}ser, Lutz Matscholl}}]}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}LinuxTag 2013[von: \leavevmode {\color {hellgrau.60}\textsl {Ralf V\IeC {\"o}gtle}}]}{4}{subsection.2.2}
