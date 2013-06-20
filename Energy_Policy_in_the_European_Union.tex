@@ -1,1 +1,1884 @@
-/home/pascal/Dropbox/LaTeX-Dateien/Studium/Projektkursarbeit/Energy_Policy_in_the_European_Union.tex
+\documentclass[11pt,a4paper,english]{scrreprt}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ansinew]{inputenc}
+
+
+\usepackage{babel}
+%Option svgnames bietet mehr Farben
+\usepackage[svgnames]{xcolor}
+%\usepackage{xcolor}
+\usepackage{relsize}
+\usepackage{paralist}
+\usepackage{typearea}
+\usepackage{setspace}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{booktabs}
+%\usepackage{hyperref}
+\usepackage{url}
+
+%Paket fuer farbige Tabellen
+\usepackage{colortbl}
+
+
+%%%----------------------------------------------------------------------
+%%Definition von Grautoenennen
+\definecolor{dunkelgrau}{rgb}{0.82,0.82,0.82}
+\definecolor{hellgrau}{rgb}{0.92,0.92,0.92}
+
+\definecolor{dunkelgrau.80}{gray}{0.20}
+\definecolor{hellgrau.60}{gray}{0.40}
+
+\onehalfspacing
+\typearea[current]{calc}
+
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\newcommand{\textemph}{\textsl{\textbf}}
+%%%----------------------------------------------------------------------
+\begin{document}
+
+\begin{spacing}{1}
+
+	\begin{titlepage}
+		
+		\begin{center}
+		{\large Freie Universit\"{a}t Berlin\\
+		Otto-Suhr\texttwelveudash
+		Institut f\"{u}r Politikwissenschaft\\
+		PK 15371/15381 \\
+		\emph{Projektkurs}\\
+		\textsmaller{\textbf{Lecturers:} Prof. Dr. Miranda Schreurs \&
+Dr. Helmut Weidner}}\par
+		
+		\vspace{4cm}
+		
+\changefont{ppl}{b}{n}
+\sffamily{
+  {\Huge{\textsmaller{\textbf{Term Paper}}}\\
+ \bigskip	 
+ \textcolor{dunkelgrau.80}{EU Energy Policy: Security Of Natural Gas Supply}}}
+		
+\par
+
+\vspace{4cm}
+		
+\changefont{lmr}{m}{n}
+		
+		{\large Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\
+		Matrikelnummer: 3753179\\
+		pascal.bernhard@belug.de}
+		
+		
+		
+		\end{center}
+
+	\end{titlepage}
+	
+\end{spacing}
+
+%%%----------------------------------------------------------------------
+
+
+%%%----------------------------------------------------------------------
+\tableofcontents
+
+
+%%%----------------------------------------------------------------------
+\setlength{\parindent}{30pt}
+\setlength{\parskip}{0pt}
+
+
+%%%-----------------------------------------------------------------------
+
+\chapter{Introduction}
+
+
+The European Union (EU) started out originally in 1951 as the
+\textsl{European Coal and Steel Community}\footnote{The \emph{European Coal and
+Steel Community} was founded by the Treaty of Paris on April 18th, 1951 and
+entered into force on July 23rd, 1952} in an effort to jointly manage
+the strategic goods coal and stell. In the following decades though, the area
+of energy policy remained largely the preserve of its member states, not
+even the oil crises of 1967 and 1973 induced any major shift towards integrating
+energy policy thus making binding decisions on the European
+level\footnote{Haghighi (2008), p.467}. Only with the publication of the first
+Green Book on energy by the European Commission in 2000\footnote{see European
+Commission (2000)} did the EU\footnote{Although strictly speaking this paper
+will the pillar \emph{European Community} as its core subject, I will refer to
+it as the European Union (EU). Regarding daily usage in the media readers will
+be more familiar with this term, even though it is somewhat incorrect.}
+forcefully express its desire to become active in this field. Subsequent
+papers and statements reaffirmed this demand for increased competences for Union
+institutions.\par
+
+This lag in the integration process in the area of energy compared to other
+policy fields contrasts markedly with the general development of the European
+Community. The \emph{Neo-Functionalist} approach to international relations had
+predicted that due to so-called 'spill-over effects' energy policy should become
+more Europeanized, i.e. intergrated \textemdash{} the consequences of the common
+market would require a common energy policy, distinct national strategies
+rendered un uitable to an ever more integrated Europe\footnote{see Haas (1958),
+(1964) as well as Lindberg \& Scheingold (1970)}. Until the 2000s there was no
+European e ergy policy to speak of, although the internal market with its
+provisions for the free movement of goods, labor, capital and services had been 
+established by the Treaty of Maastricht already back in 1992. The ensuing
+'spill-over effects' should then have prodded national governments to delegate
+more and more powers to supranational institutions to better cope with
+Europe-wide issues relating to energy.\par 
+
+
+This \emph{Neo-Functionalists}' perspective can be questioned by energy's
+essential role for modern, industrialized economies. Put simply without
+sufficient energy supplies Europe's economies will quickly collapse, as
+they are highly dependent on imports of primary
+energy\footnote{\textcolor{dunkelgrau.80}{\textsl{The term 'primary energy'
+describes an energy form found in nature which has not run through any
+conversion or transformation process. It is contained in raw fuels, like crude
+oil, natural gas, uranium and other forms of energy, e.g. wind, solar power
+received as input to a system.}}} notably fossil fuels\footnote{see Eurostat
+2012}. Large amounts of oil need to be purchased from foreign suppliers due to a
+lack of domestic reserves. The same holds for natural gas, which is used for
+heating and electricity generation. Being key to economic development and
+national security energy policy fits neatly into \emph{Neo-Realist} and
+\emph{Intergovernmentalist} explanations of international politics. Following
+their arguments states should consider energy supply as a vital interest not to
+be left to supranational organisations like the European Union. Rather member
+states would keep energy policy firmly under their authority and delegate as
+little power as possible.\par
+
+Up to mid-2000s energy policy in Europe could be explained quite well from such
+perspective with national governments preserving their prerogatives equally
+with vigour as in foreign policy matters. Then came along the recurring
+disputes between Russia, Europe's main supplier of natural gas on the one side,
+and on the other the main transit country for these gas shipments, Ukraine. From
+2005 on both parties argued constantly about the price to be paid for
+natural gas and Russia's state-controlled gas company
+\textsl{Gazprom}\footnote{\textcolor{dunkelgrau.80}{\textsl{This
+paper will assume that the interests of Gazprom and the Russian state are
+basically identical (the Russian state being the largest share-holder of the
+company with 50.01\textdiscount{} of the shares and its chief executive
+appointed by the Kremlin). Or at least they overlap to such a degree regarding
+the export strategy for natural gas, that for the anaylsis presented here no
+distinction will be made. For a more sophisticated view and the correctness of
+this assumption please see for example Rosner (2006)}}} interrupted deliveries
+several times or threatened to do so\footnote{The Telegraph (2008), Chicago
+Tribune (2009)}.\par
+
+For the first time some of the old member states were affected by supply
+disruptions, although much less so than the new members from Central \& Eastern
+Europe. As the disputes over gas became a rather permanent feature in
+Ukrainian-Russian relations the European Commission became started repeated
+initiative to arrive at a common energy strategy to better cope with such risks
+to the natural gas deliveries and member states too began making efforts
+towards enhancing their security of energy supplies. If these moves and
+their results already constitute a policy shift that increased the level of
+integraton in energy matter will be looked at in the following sections.\par
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Research Question \& Structure Of The Paper}
+
+
+      \paragraph{Research Question}
+
+This paper looks for an answer to the question, whether the incremental
+integration process, with multilateral cooperation in Europe evolving
+from its first tentative steps after World War II to a monetary if not quite
+political union, by now also includes to the area of energy policy. Put in
+theoretical terms, which formal approaches to international relations and
+specifically to the phenomenon of regional integrations do offer the best
+explanations of this process? From the 'traditional' \emph{Neo-Realist}
+perspective we should see no or very little integration, i.e. delegation of
+powers to European institutions and joint decision-making by Union members. As
+energy is tightly connected to national security concerns this school of
+international relations predicts that states are anxious to hold on to as much
+control as possible over choices on the energy mix and strategies to ensure
+supply from foreign sources.\par
+
+At the same time, the European Union has been delegated ever more powers with
+members relinquishing fundamental attributes of their sovereignty in areas
+such as monetary policy, regulation of their market economies and trade policy.
+This paper does not intend to provide a detailed discussion on why governments
+hand over such competences to a supranational body, even though they would
+never do so from a (\emph{Neo-Realist}) national-security
+standpoint\footnote{\textcolor{dunkelgrau.80}{In fact \emph{Neo-Realism}
+argues that states enter only into international agreements which enhance their
+national security. Economic motives are discarded by this approach as a valid
+explanation of interstate cooperation.}}. There already exists extensive
+literature on the European integration process in general and its
+drivers\footnote{For a more detailed discussion of different theoretical
+approaches to European integration see among others: Manners (2013), Pollack
+(2001), Warleigh-Lack (2006)} for my work to offer genuinely new insights to the
+discussion. Nonetheless research on the specific area of energy policy is rather
+limited compared to other fields like trade, competition and environmental
+regulation\footnote{Kelstrup 1998, p.18}. Here I will propose some explanations
+of why the Europeanization\footnote{\textcolor{dunkelgrau.80}{In this paper the
+terms \emph{integration} and \emph{Europeanization} will be used synonymously as
+the integration process is exclusively happening in the European context}}
+process for energy policy is evidently different and harder to understand by
+existing integration approaches.\par
+
+As already mentioned in the introductory part players of the EU have become
+noticably active in energy matters only during the latter half of the past
+decade. This raises the question of why no substantial energy policy had been
+developed in the decades before, but suddenly we see the topic of 'energy
+security' appear on the European agenda and various actors calling for a common
+approach when dealing with foreign supplier countries. Do the recent
+developments in EU energy policy call for adapting the theoretic approaches
+political science uses when analysing this area of the integration process?
+What causes can be identified for this change of direction in content and
+structure of Europe's energy policy?\par
+
+
+ 
+
+
+
+
+	\paragraph{Proceeding}
+
+First this paper briefly presents the two main approaches to explaining
+European integration and describe to what extent they are able to account for
+the current situation of European energy policy. To provide the reader with
+background information on the present-day picture of energy affairs in Europe
+the workings of natural gas markets will be presented in more detail and its
+implications for the concept of 'supply security'. 'Security of natural gas
+supplies' will be the subject of a third part and I will limit my research
+to this form of energy, leaving other energy types aside.\par
+
+In order to show that there indeed is a policy change over time, the repeated
+disputes between Russia and Ukraine about gas deliveries shall serve as
+explanatory factors for the evolution of European energy policy in the last
+decade. Here we should see responses from the EU that increasingly signal a
+common energy policy rather than single-handed efforts by individual member
+states when confronted with a threat of supply disruptions.\par
+
+Drawing upon the work of Hermann and Gurr on crisis theory by J\"anicke I
+suggest that it was these shocks in the form of recurring disruptions in gas
+flows which induced a policy shift in EU politics that had been not possible
+before. Expressed in theoretical terms the crucial variable 'adequate supply
+of energy' change dramatically and suddenly. Here the paper will attempt to
+show that member states and EU institutions realized they needed to react
+swiftly with a response the existing institutional setting could not
+provide. Thus the unexpected willingness on all sides to adapt the political
+system via further integration steps.\par
+
+
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Explanations Of European Integration}	
+	
+
+In the endeavor to offer a theoretical framework for explaining political
+developments in Europe after World War II, two schools of thought,
+\emph{Neo-Functionlism} and \emph{Intergovernmentalism} and its later, modified
+variant \emph{Liberal Intergovernmentalism} have markedly shaped the debate on
+regional integration processes among scholars of international
+relations\footnote{Obydenkova (2011), p.3}. The phenomenon of European countries
+relinquishing sovereignty and delegating power to a supranational organization
+which started as the \textsl{European Coal and Steel Community} and then evolved
+into the \textsl{European Community} which later became part of the
+\textsl{European Union}, could not be understood by the standard approach at the
+time \emph{Neo-Realism}.\par
+
+
+      \paragraph{Neo-Realism}
+
+This theory of cooperation or non-cooperation among nation states sees the
+international system as intrinsically anarchic and structured by the
+differing capabilities states possess\footnote{Waltz (1979), p.132/133}. States,
+which are the only relevant actors, value military power and resources as
+determinants of their respective capabilities and judge their own position on
+the international stage relative to others. Consequently they are only concerned
+with mere survival, and being uncertain about the true intentions of other
+countries internatinal politics is marked by general mistrust. Thus states
+only enter into cooperation with other countries when this serves the purpose
+of national security, i.e. they can expect gains relative to the capability of
+other states. Smaller states may have no other choice than to attempt to
+constraint bigger powers through international rules in order to counterbalance
+their superiority\footnote{Pollack (2001), p.224}.\par
+
+
+   \section{Neo-Functionalism}
+
+Following \emph{Neo-Realism}'s view of world politics Europeans should never
+have entered into any arrangement which made them give up competences to
+supranational institutions like the European Commission, the European Parliament
+and the European Court of Justice. Put differently, such a thing as the European
+Union which does not serve collective defensive purposes and thus national
+security is unthinkable in Neo-Realist terms and cannot be explained.\par
+
+\emph{Functionalism} proposed a new approach to understand the European
+integration process. Its central idea was that a mismatch between the
+territorial dimension of society's problems and of political authority to deal
+with them induces pressures for jurisdictional reforms\footnote{Obydenkova
+(2011), p.3}, i.e. a modification of the polical system. The expected gains from
+joint supranational actions would push nation-states towards cooperation beyond
+the narrow field of collective security. Political scientists like Haas,
+Lindberg, Scheingold and Schmitter\footnote{see Haas (1961) \& (1964), Lindberg
+\& Scheingold (1970), Schmitter (1969)}, for example, developed this concept
+further by arguing that integration in one specific policy field engenders
+so-called \emph{'spill-over effects'} which in turn initiate further integration
+steps in related areas. As incomplete integration undermines the effectiveness
+of policy, pressure builds up to deepen and extent international cooperation to
+new sectors\footnote{Haas (1961), p.369}. This new school of though came to
+known as \emph{Neo-Functionalism}.\par
+
+\pagebreak 
+
+	\subsection{Factors Shaping Regional Integration}
+
+Regional integration processes are explained by Neo-Functionalists via the
+interaction of three factors: 
+  
+  \textcolor{dunkelgrau.80}{
+  \begin{enumerate}
+     \item growing economic interdependence between countries
+     \item capacity of supranational organization to resolve disputes and
+establish international legal regimes
+     \item international market rules that take the place of national market
+rules
+    \end{enumerate}
+    }
+
+\vspace{0.8cm}
+
+The supply with natural gas from foreign sources is or may be conditioned
+by the three factors mentioned above. European countries are highly reliant
+on imported fossil fuels, for gas the share of imports stands at 67
+\textdiscount{}, with Russia providing 24 \textdiscount{} of total EU gas
+consumption\footnote{Eurogas (2012), p.6 \texttwelveudash{} figures for
+2011}. This dependence on foreign supplies is complicated by the reliance on
+transit countries not interfering with deliveries of natural gas via pipelines
+running through their territory (For gas supplies from Russia, the most
+important transit countries are Ukraine, Belarus and Poland). Since supplier
+nations depend on the revenues they receive via sales of natural gas to Europe
+or transit fees, we have a situation of interdependence, the first factor
+\emph{Neo-Functionalism} regards as essential for regional
+integration\footnote{Goldthau (2012), p.67}.\par
+
+The second and third factors, the capacity of international organizations to
+resolve disputes between states and establish as well as enforce rules on the
+international energy market are basically two main topics of analysis of the
+present research question. Integration of energy policy describes the powers of
+EU institutions to set the rules of the 'energy game' in Europe and constrain
+member states in their behavior towards foreign suppliers and vis-\`{a}-vis each
+other. Initiated by interdependence between single member states and foreign
+suppliers, Europeanization and more specifically the growing importance of
+supranational institutions in this field create a feed-back loop.\par
+
+As mentioned above the first integration steps should act a drivers for further
+Europeanization since their 'spill-over effects' will make the drawbacks and
+inefficiencies of incomplete integration visible to national governments. I will
+treat the later two \emph{Neo-Functionalist} factors primarily as eventual
+results of the integration pressure caused by the first factor, using them as a
+measure of the degree of Europeanization. Their role in driving the integration
+process will be left aside due to the limited scope of this paper.\par
+	
+	
+
+
+    \section{Liberal Intergovernmentalism}
+	
+	
+Like \emph{Neo-Realism} the theory of \emph{Intergovernmentalism} approaches
+the phenomenon of regional integration from the perspective of
+nation-states\footnote{Obydenkova (2012), p.4}. States and their governments
+are considered to be the primary actors in international politics and rational
+in the pursuit of their interests. During major intergovernmental negotiations
+results are neither driven by 'supranational policy entrepreneurs' like the
+European Commission (\emph{Institutionalism}'s standpoint), the consequence of
+'spill-over effects' (as \emph{Neo-Functionalism} maintains) or answers to
+demands by powerful interest groups (argument made by
+\emph{Liberalism})\footnote{Pollack (2001), p.226}.\par
+
+Moravcsik, one of the leading proponents of \emph{(liberal)
+Intergovernmentalism}, views EU negotiations as a cooperative game in which the
+level of cooperation reflects patterns in the preferences of national
+governments\footnote{Moravcsik (1997), p.499}. The course of the integration
+process is determined by interstate bargaining. Outcomes of intergovernmental
+conferences result from a gradual convergence of national preferences towards
+integration. Departing from \emph{Neo-Realist} assumptions liberal
+Intergovernmentalists argue that these preferences about international politics
+are generated on the domestic level and are not solely derived from national
+security considerations\footnote{\textcolor{dunkelgrau.80}{This preference
+formation on the domestic level with certain interest groups or individuals
+involved gives this variant of \emph{Intergovernmentalism} the attribute
+'liberal'.}}. Similarly, bargaining power is not only determined by military
+strength and resources but rather by the intensity or salience of a country's
+preferences\footnote{Moravcsik (1993), p.477}. Still Moravcsik admits that the
+most powerful states in the EU determine the direction in intergovernmental
+negotiations and treaties are concluded to their advantage\footnote{ibid
+(1997), p.502}.\par
+
+As to why nation-states would transfer competences to the supranational level
+\emph{liberal Intergovernmentalism} offers an explanation somewhat analogous to
+the one put forward by \emph{Functionalism}. The latter claimed that expected
+gains from cooperative action would push national governments to joint
+decision-making beyond questions of collective security. According to
+\emph{liberal Intergovernmentalism} binding international agreements and
+supranational institutions are attractive alternatives to either unilateral
+action or non-binding cooperative accords that could be affected by
+issue-linkage\footnote{\textcolor{dunkelgrau.80}{A negotiating strategy of
+making agreement on one issue dependent on progress in negotiations about a
+different issue. Combining multiple issues is used to change the balance of
+interests in favor of a successful conclusion of an agreement.
+\texttwelveudash{} Davis (2004), p.153}} during negotiations or the threat of
+defection of one party shirking from its obligations\footnote{Moravcsik (1995),
+p.612}.\par
+
+In contrast to \emph{Neo-Functionalism}'s standpoint, the \emph{liberal
+Intergovernmentalist} approach assigns supranational institutions only a minor
+role in the Europeanization process itself. They are mere instruments to reduce
+transaction costs in interstate bargaining by providing member states with
+information. \emph{Intergovernmentalists} deny the existence of political
+'spill-over effects' and the phenomenon of an organisation pushing for further
+integration out of self-interest. In their perspective the European Commission,
+for example, cannot be viewed as an 'activist bureaucracy' intent on being
+delegated ever larger competences by member states\footnote{Pollack (2001),
+p.227}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	
+	
+	
+  \chapter{Energy Policy In The EU}
+ 
+ 
+    \section{The Role Of Natural Gas For Europe's Energy Consumption}
+
+
+The European Union used 400.0 MTOE\footnote{\textcolor{dunkelgrau.80}{The energy
+unit \emph{Million Tonnes of Oil Equivalent (MTOE)} denotes the amount of energy
+released by burning one tonne of crude oil. The precise calorific value of a
+\emph{Tonne of Oil Equivalent} is defined by convention as different types of
+crude oil have different calorific values. The IEA defines a TOE to have the
+value of 41.868 GJ or 11.63 MWh (see IEA 2001). Applied to natural gas $1{}
+m^{3}$ is the equivalent of $0.00093$ MTOE}} of natural gas in 2011. Out of a
+total of 1704.1 MTOE of primary energy consumed\footnote{see Eurogas 2012} gas
+thus has a 23 \textdiscount{} share in total primary energy use. This makes it
+the secondest largest gas market in the world after North America. Natural gas
+hasn't always played such a prominent role on European energy markets. Not until
+the oil price shocks of 1973/1974 and 1979/1980 was the potential of gas
+recognized to serve as a substitute for oil products\footnote{Institut f\"ur
+Europ\"aische Politik (2013), p.8}. Three main uses may be distinguished for
+natural gas:
+  \begin{inparaenum}[(1)] \item fuel for heating space or water in the
+residential and commercial sector, \item in industrial production gas is
+utilized for heat generation, \item gas also serves as a fuel for electricity
+generation even if it is of varying importance to member countries depending on
+the energ mix in electricity production.\end{inparaenum} \par
+
+Power generation is the most important use for natural gas, accounting for
+roughly a third of the total amount consumed\footnote{ibid (2013), p.9}. New
+technology like the efficient Combined Cycle Gas Turbine (CCGT) has made gas an
+attractive fuel for electricity generation. The expansion of gas-powered
+electricity capacity amounted to approximately 120 GW during the last decade,
+surpassing installation increases in any other generation technology. Since gas
+turbines emit less $CO_{2}$ than coal-fired power plants and are politically
+less controversial than nuclear plants, current efforts to reduce carbon
+emissions will probably see an increase their share in the energy mix. The
+International Energy Agency (IEA) projects future demand for natural gas as a
+primary energy source to rise as well its share in electricity genereation to
+increase\footnote{see IEA (2012)}. The question how to ensure the gas shipments
+do not get disrupted will thus become even more important in the future.\par
+
+
+    \subsection{Disparities Among EU Member States}
+
+The aggregate figures for the EU-27 as a whole conceal wide disparities in the
+role natural gas plays for national consumption patters and the varying degree
+of import dependency of EU countries. For the Netherlands the share of natural
+gas is the highest in the EU with 44 \textdiscount{} of total primary energy
+use, followed by Lithuania (36.5 \textdiscount{}), Romania (36 \textdiscount{}),
+Italy (35.2 \textdiscount{}) and the United Kingdom (34.5
+\textdiscount{})\footnote{Eurogas (2012), p.3 -- figures for 2011}. At the other
+end of the spectrum we find Slovenia (11 \textdiscount{}), Finland (9.5
+\textdiscount{}), Estonia (9 \textdiscount{}) and Sweden with a share of 2.5
+\textdiscount{}. For comparison Germany, the largest member of the European
+Union (in terms of population and size of its economy) uses gas for 20.5
+\textdiscount{} of its primary energy demand and for France the figure is 14
+\textdiscount{}.\par
+
+
+	\paragraph{High Import Dependency}
+
+As domestic production is insufficient to cover demand, a large proportion of
+the gas consumed has to be imported. In 2010 the share of imports from foreign
+suppliers was 62.9 \textdiscount, up from 43.5 \textdiscount{} in
+1995\footnote{Eurostat (2012), p.20}. As a side note, the import dependency for
+coal and oil stood at 39.4 \textdiscount{} and 84.3 \textdiscount{}
+respectively. Algeria, Norway, Russia and Qatar are the main foreign suppliers
+of natural gas for Europe, of which Russia is the most important with a share of
+24 \textdiscount{} of Europe's total consumption or 37 \textdiscount{} of
+imports\footnote{Eurogas (2012), p.6 -- figures for 2011}. Among the four
+supplier countries mentioned only Norway can be considered as politically
+reliable in so far as to have a stable, democratic political system and is
+thus highly unlikely to use disruptions of gas shipments as a tool of foreign
+policy as Russia has repeatedly been accused of\footnote{see Belkin, Nichol,
+Ratner \& Woehrel (2013)}. \par
+
+Taking a closer look at individual member states the picture of import
+dependency also varies widely: \textcolor{dunkelgrau.80}{\emph{Please note that
+the table on the next page shows reliance on Russian gas deliveries to satisfy
+domestic demand, countries like Portugal and Spain are for their part completely
+dependent on Algerian gas shipments. Since the papers focuses on supply issues
+related to 'Russian' gas shipments only numbers on deliveries from Russia
+are provided here.}}\par
+
+%\vspace{0.5cm} 
+\pagebreak
+
+%%%serifenlose Schrift in Tabelle
+\sffamily
+
+  \begin{tabular}[l]{l c c}
+    \rowcolor{black}
+    \multicolumn{3}{l}{\textcolor{white}{\textbf{Share Of Russian Gas In Energy
+Consumption}}} \\
+    \rowcolor{black}
+    \multicolumn{3}{l}{\textcolor{white}{\smaller{\textsl{(Source: BP
+Statistical Review Of World Energy 2012, Eurostat 2012)}}}} \\
+
+     {{\textcolor{Navy}{\textbf{Country}}}} & {{\textcolor{Navy}{\textbf{Natural
+Gas}}}} & {{\textcolor{Navy}{\textbf{Primary Energy}}}} \\
+
+    \hline
+
+
+
+
+    \rowcolor{hellgrau} {\smaller{Austria}} & {\smaller{\textsl{14.2
+\textdiscount{}}}} & {\smaller{\textsl{62.5 \textdiscount{}}}} \\
+
+   {\smaller{Belgium}} & {\smaller{\textsl{0.0 \textdiscount{}}}} &
+{\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Bulgaria}} & {\smaller{\textsl{10.8
+\textdiscount{}}}} & {\smaller{\textsl{99.5 \textdiscount{}}}} \\
+    
+   {\smaller{Cyprus}} & {\smaller{\textsl{0.0 \textdiscount{}}}} &
+{\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Czeck Republic}} & {\smaller{\textsl{18.4
+\textdiscount{}}}} & {\smaller{\textsl{71.9 \textdiscount{}}}} \\
+
+   {\smaller{Denmark}} & {\smaller{\textsl{0.0 \textdiscount{}}}} &
+{\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Estonia}} & {\smaller{\textsl{6.0
+\textdiscount{}}}} & {\smaller{\textsl{100.0 \textdiscount{}}}} \\
+
+   {\smaller{Finland}} & {\smaller{\textsl{13.9 \textdiscount{}}}} &
+{\smaller{\textsl{100.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{France}} & {\smaller{\textsl{2.9
+\textdiscount{}}}} & {\smaller{\textsl{16.7 \textdiscount{}}}} \\
+
+   {\smaller{Germany}} & {\smaller{\textsl{9.7 \textdiscount{}}}} &
+{\smaller{\textsl{39.7 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Greece}} & {\smaller{\textsl{5.7
+\textdiscount{}}}} & {\smaller{\textsl{52.8 \textdiscount{}}}} \\
+
+   {\smaller{Hungary}} & {\smaller{\textsl{24.9 \textdiscount{}}}} &
+{\smaller{\textsl{65.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Ireland}} & {\smaller{\textsl{0.0
+\textdiscount{}}}} & {\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+   {\smaller{Italy}} & {\smaller{\textsl{7.5 \textdiscount{}}}} &
+{\smaller{\textsl{17.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Latvia}} & {\smaller{\textsl{13.2
+\textdiscount{}}}} & {\smaller{\textsl{100.0 \textdiscount{}}}} \\
+
+   {\smaller{Lithuania}} & {\smaller{\textsl{38.8 \textdiscount{}}}} &
+{\smaller{\textsl{100.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Luxemburg}} & {\smaller{\textsl{0.0
+\textdiscount{}}}} & {\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+   {\smaller{Malta}} & {\smaller{\textsl{0.0 \textdiscount{}}}} &
+{\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Netherlands}} & {\smaller{\textsl{3.6
+\textdiscount{}}}} & {\smaller{\textsl{8.1 \textdiscount{}}}} \\
+
+   {\smaller{Poland}} & {\smaller{\textsl{8.5 \textdiscount{}}}} &
+{\smaller{\textsl{63.1 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Portugal}} & {\smaller{\textsl{0.0
+\textdiscount{}}}} & {\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+   {\smaller{Romania}} & {\smaller{\textsl{5.6 \textdiscount{}}}} &
+{\smaller{\textsl{17.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Slovakia}} & {\smaller{\textsl{30.4
+\textdiscount{}}}} & {\smaller{\textsl{98.2 \textdiscount{}}}} \\
+
+   {\smaller{Slovenia}} & {\smaller{\textsl{6.3 \textdiscount{}}}} &
+{\smaller{\textsl{56.2 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{Spain}} & {\smaller{\textsl{0.0
+\textdiscount{}}}} & {\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+   {\smaller{Sweden}} & {\smaller{\textsl{0.0 \textdiscount{}}}} &
+{\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+
+    \rowcolor{hellgrau} {\smaller{United Kingdom}} & {\smaller{\textsl{0.0
+\textdiscount{}}}} & {\smaller{\textsl{0.0 \textdiscount{}}}} \\
+
+
+
+    \hline
+    \cellcolor{white} {\textcolor{Navy}{\smaller{\textbf{EU-27 Average}}}} &
+{{\textcolor{Navy}{\smaller{\textsl{5.2 \textdiscount{}}}}}} &
+{{\textcolor{Navy}{\smaller{\textsl{26.3 \textdiscount{}}}}}} \\
+
+
+  \end{tabular}
+
+\par
+
+\newpage
+
+%%%wieder Serifenschrift im Text
+\rmfamily
+
+Without generalizing too much one can say that member countries from Central \&
+Eastern Europe are on average more dependent on gas deliveries from Russia and
+thus more vulnerable to supply disruptions on this route. During the gas
+conflicts between Ukraine and Russia in the years from 2005 to
+2010\footnote{Reuters (2009)} it was them who were the first to be affected by
+the interruption of gas flows\footnote{BBC (2006), Le Devoir (2009)}. These
+variations in reliance on foreign supplies are a first indicator as to why
+member states embrace different strategies to ensure reliable provisions with
+natural gas with some preferring bileteral arragements\footnote{Umbach (2010),
+p. 1231}. As a consequence a common European energy policy must look more or
+less appealing to national governments depending on their specific supply
+situation.\par
+
+
+    
+    
+    
+    \section{The International Gas Market}
+
+As of today there is no international gas market where prices are determined on
+a spot market by balancing supply and demand analogous to the working of the oil
+market\footnote{Nies (2008), p.}. In fact one can distinguish three distinct
+natural gas markets worldwide: East Asia, North America and Europe\footnote{CIEP
+(2004), p.61}. Since most of the gas shipments pass through pipelines, producers
+and consumers are tied to these transport facilities. Substantial sunk costs
+characterise energy infrastructure, so long-term supply contracts are the norm,
+often with a duration of 20 years or more\footnote{see BP (2012)}. Therefore
+consumer countries cannot switch suppliers quickly, exposing them to risks
+related to the producer side or the transit countries the shipments have to pass
+through. Pipeline pose risks for producers as well, for they equally cannot
+switch customers easily: pipelines are immobile infrastructure with starting and
+end point predetermined for the duration of their life.\par
+
+An alternative to pipelines as mode of transport is 'Liquefied Natural Gas'
+(LNG). Unfortunately this solution requires considerable investment into
+liquifaction and regazification plants, with costs reaching several billion
+Euros. Europe has undertook considerable efforts over the past decade to
+build up LNG capacities, so that about a quarter of natural gas imports now
+arrives in its liquefied form\footnote{see Eurogas (2012)}. Unfortunately
+81\textdiscount{} of LNG shipments comes from just three countries, Qatar
+(47\textdiscount{}), Nigeria (18\textdiscount{}) \& Algeria (16\textdiscount{})
+that do hardly fit the definition of a reliable supplier.\par
+
+
+
+
+    \section{Security Of Supply}
+
+	
+	\paragraph{What Does 'Security Of Supply' mean?}
+
+
+The questions where European countries get their natural gas from and whether
+these provision can be relied upon in the short- and long-term are captured by
+the concept of '\emph{Security of Supply}'. There exist several definitions of
+'Security of Supply'\footnote{Winzer (2011), p.4}, but nevertheless they all
+share the same idea of avoiding sudden changes in availability of energy
+relative to demand. Although this paper will not delve into the nuances between
+the various definitions, I shall present three different versions: Winzer
+describes 'Supply Security' as "\textsl{the absence of, or protection from or
+adaptibility to threats that are caused by or have an impact on the energy
+supply chain}"\footnote{ibid (2011), p.9}. For the IEA "\textsl{Energy Security
+is defined in terms of the physical availability of supplies to satisfy demand
+at a given price}"\footnote{see IEA (2001)}. Stefanova on the other hand
+explains the concept somewhat differently, but which may be more practical for
+an analysis from a political science perspective: "\textsl{The concept of energy
+security captures the entanglement of cost-benefit, reliability, affordability,
+and sustainability concern in the provision of natural gas}"\footnote{Stefanova
+(2012), p.52}.\par
+
+
+	\paragraph{Unintentional Discontinuities}
+
+Supply security can be jeopardized by different types of threats to the
+constant flow of energy from producer to consumer country. The first
+distinction which can be made here is between intentioned disruptions and
+unintented discontinuities of natural gas supplies\footnote{Horsnell (2000),
+p.11}. Natural catastrophes count among the unintended disruptions in case
+transport infrastructure is so severely damaged as to put an effective halt to
+further deliveries. The long-term effects of underinvestment in exploration and
+development of new reserves or in transportation capacity will equally lead to a
+shortfull in supplies. Arguably this can also be considered unintentioned in
+nature for no single decision produces this outcome but rather it is the result
+of a failed long-term investment strategy. Although the first threat to supply
+security can occur suddenly, while the second makes itself felt over a much
+larger time horizon, supply diversification equally provides a hedge against
+both risks.\par
+
+
+
+	\paragraph{Intentioned Supply Disruptions}
+
+Following Horsnell\footnote{see ibid (2000)} we can imagine two scenarios
+where deliberate actions by the supplier or consumer side cause an
+interruption in gas deliveries. Consumer countries could impose an embargo on
+energy exports of a specific country. This might be done to exert pressure on
+the producer country's government for a policy change, as several states have
+decided to do in order to induce Iran to forgo its ambitions of a nuclear
+weapons program. The prospects of EU members blocking Russian gas imports, so
+as to push Moscow to alter its policy towards its neighbours say, or allow more
+press freedoms and free speech seems rather unlikely.\par
+
+Finally gas supplies can be threatened in case the producer country either
+decides to restrict its exports on short notice for political reasons or changes
+its export strategy in general switching to different customers. Russia's
+state-controlled gas company \emph{Gazprom} seems to have embarked lately on
+such a long-run strategy shift with attempts to make deals with China on natural
+gas exports to East Asia rather than its traditional customers in
+Europe\footnote{Bloomberg BusinessWeek (2012), Energy Tribune (2011), EurActiv
+(2012), Reuters (2012)}. For the longer term this could pose serious problems
+for Europe as it would stengthen Gazprom's negotiating position, then being able
+to choose among different customers. Having alternative export routes for its
+natural gas to East Asia at the same time reduces Gazprom's and thus the Russian
+state's dependence on revenues from sales to European consumers. In effect this
+would change substantially the current situation of interdependence in which
+Europe and Russia are mutually dependent on each other: the one side counting on
+reliable gas supplies to satisfy its energy demand, the other relying on
+predictable income through long-term supply contracts. As in the disruption
+scenarios mentioned above a diversification strategy away from an
+over-reliance on natural gas imports from one single source would increase the
+European Union's security of energy supplies.\par 
+
+
+
+
+	\subsection{Security Of Supply For Europe}
+
+
+
+Sudden interruptions of provisions like the gas disputes between Russia and
+Ukraine clearly put Europe's supply security into question. Several EU members
+had been affected by diminished gas deliveries although they were not party to
+the disagreement\footnote{European Commission (2009), p.4}. The cases of
+interrupted gas supplies caused by disagreements between producer and transit
+countries falls into the threat category of 'intentioned supply disruption'.
+This paper does not have the room to discuss the underlying reasons for Russia
+to halt its deliveries to Ukraine and thus eventually also to EU member states.
+For the analysis at hand it suffices to state that this was a deliberate action
+for whatever motive and can easilty happen again. The foremost interest of the
+European Union is to reduce its vulnerability to such a supply shock, addressing
+the fundamental causes of its occurence are relevant for Europe's long-term
+energy strategy, immediate remedies have to look for different solutions.\par
+
+	  \paragraph{Diversification}
+
+The previous section referred to \emph{diversification} as a way to improve
+supply security. 'Diversification' is a broad concept and encompasses several
+steps to reduce one's vulnerability to sudden changes in the market
+environment, the extreme case being a complete halt to energy deliveries. The
+underlying idea is to avoid reliance on one energy source, type, technology or
+means of transport to get the energy needed to end-customers\footnote{CIEP
+(2004), p.2004}. First of all there is the possibility to receive one's energy
+from a multitude of producer countries. As there would be several alternative
+supply options available, problems with shipments from one particular source
+should have limited impact on the overall supply situation. Diversification can
+also be applied to the type of energy, i.e. finding appropriate substitutes for
+the energy type in use (e.g. substituting oil for gas or vice versa). A
+discontinuity in gas provisions could thus be balanced by using more oil.
+Particularly relevant for natural gas is a diversification of supply routes,
+since here cooperation from the producer is not sufficient to ensure supply
+security but the transit country's collaboration is necessary as well.\par
+
+Unfortunately the diversification potential for natural gas is considerably
+lower than for other types of energy\footnote{CIEP (2004), p.67}. As burning oil
+and coal for electricity generations emits significantly higher amounts of
+$CO_{2}$ using these types of primary energy as substitutes for gas is
+politically undesirable taking into account the EU's climate change targets.
+In addition, existing gas pipelines may not be used for oil shipments. So the
+options of diversifying away from natural gas as a primary energy source for
+heating and electricity production are very restricted.\par
+
+Diversifying supply routes also poses its challenges: pipelines are physically
+fixed, thus either new pipelines will have to be built or a switch to different
+transportation technology is needed. LNG terminals would provide EU
+members the option to receive gas from other suppliers than their present ones.
+Unfortunately, potential candidates Qatar, Nigeria, Egypt or Venezuela are not
+very reliable as mentioned above and also bring supply risks with them. Even
+though a consider number of LNG
+reliquification plants\footnote{\textcolor{dunkelgrau.80}{Often overlooked in
+the debate on security of natural gas supplies is the fact that seen globally
+the number of liquification plants (Where natural gas is cooled down to about
+-162 \textcelsius{} have to roughly equal the number of regasification
+facilities. Thus newly built regasification plants in Europe may face
+insufficient liquification capacity in producer countries.)}} have been
+constructed in the EU over the last years, they are expensive to
+build\footnote{Nies (2008), p.47} and thus beyond the means of smaller
+members in Central \& Eastern Europe.\par
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{EU Energy Policy Up To The Gas Crises Of The 2000s}
+
+
+
+As mentioned in the introductory part until quite recently the scope of
+Europe's energy policy was rather limited when compared to other far more
+integrated policy areas. Only since the adoption of the 'Lisbon Treaty' (Treaty
+On The Functioning Of The European Community [TFEU]) on December 13, 2007,
+was there a specific chapter on energy in the European
+treaties\footnote{Braun (2011), p.1}.\par
+
+The European Commission as the agenda setter for the EU legislative process was
+very constrained in its possibilities to intitiate binding legislation that
+would have obliged member states to adhere to common rules. It could only
+attempt to do so by exercising so-called 'implicit powers', powers not granted
+in the (numerously amended) foundation documents, to have joint measures adopted
+for which there was no express treaty basis\footnote{Haghighi (2008), p.464}.
+Specifically articles 95, 100 and 308 of the European Community Treaty [ECT]
+(now the Treaty on the European Union [TEU]) provided the European Commission
+with opportunities to expand the remit of EU law into new areas.\par
+ 
+Still, measures related to energy questions had to be adopted by consensus when
+submitted to the Council of Ministers\footnote{Art. 157 ECT}, giving
+essentially every member country a veto against decisions perceived as harmful
+to its interests. Here the Commission's effort to 'integrate' energy policy and
+create an EU-wide market for energy alongside common rules for all have often
+been rejected by national governments\footnote{Braun (2011), p.5, Umbach
+(2010), p.1245}.\par
+
+In its Green Papers on energy (2000 \& 2006) for example\footnote{European
+Commission (2000), ibid (2006)} the European Commission had proposed the
+creation of strategic gas reserves available to all EU members in case of a
+crisis. The idea was dropped when it encountered considerable resistance in the
+Council\footnote{CIEP (2004), p.68}. The benefits of such a costly measure would
+have been unequally distributed since import dependence for natural gas
+varies considerably among the different countries as shown in the section
+\textbf{4.1.1}.\par
+
+Because gas can only be stored in reserves given certain geological
+conditions, which are not present in all European countries, the proposed
+measure would also have required establishing an integrated European gas network
+for the reserves to be effective in an emergency situation. That not only
+involves sufficient investment funds but also mutual trust among members to act
+in the common interest during a supply crises. This example highlights the
+collective action problem posed by a European energy policy, when a joint
+response is warranted but the cooperation of other members is still perceived as
+uncertain. At the same time the issue of supply security did not seem to be
+pressing enough for Europeans to transfer powers to Union institutions and 
+establish oversight mechanisms to enforce compliance.\par
+
+
+Generally speaking national governments have preferred to pursue individual
+energy strategies, instead of pooling resources or even delegating competences
+to EU institutions to control whether everyone adheres to the commonly agreed
+strategy. Member states have backed their major energy firms by securing them
+political support for business activities abroad on a bilateral basis,
+especially when government are important\footnote{Pointvogel (2009), p.5709}.
+The same is true for the internal market, where governments intervened in order
+to delay liberalisation efforts by the Commission to shield their energy
+companies from foreign competition.\par
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Ukrainian-Russian Disputes Over Natural Gas As An External Shock}
+
+I will provide a very short chronology on the gas crises between 2005 and 2010
+that lead to repeated interruptions of gas deliveries from Russia to Ukraine.
+The news articles cited do not provide a complete picture of the events and
+should be taken as such. For further information on the underlying causes of the
+gas disputes and the political motives if the actors involved , if there were
+any, the reader is advised to see the references.
+
+    \section{Dispute 2005 -- 2006}
+
+
+\begin{itemize}
+	
+\item Disagreement between Ukrainian gas firm \emph{Naftogaz} and
+Russia's \emph{Gazprom} about gas supplies, prices, debt incurred by the
+Ukrainian side\footnote{For a detailed account of the events see Stern (2006)}
+
+  \begin{itemize}
+   \item Gazprom demanded market prices for natural gas deliveries which had
+been subsidized in the years since the breakup of the Soviet Union in 1992
+
+   \item The Russians also claimed that Ukraine was siphoning off gas intended
+for customers in the European Union\footnote{Gelb, Nichol \& Woehrel (2006),
+p.2}. 
+
+   \item No final agreement was reached during 2005.
+
+  \end{itemize}
+
+
+\item Russian gas shipments were cut off on January 1st, 2006
+
+
+\item While Germany's and France's gas supplies remained virtually unaffected,
+Poland saw its provisions from Ukraine/Russia decline by 14\textdiscount{} and
+Hungary's imports were down by a quarter\footnote{BBC (2006)}
+
+\item Then EU commissioner for energy Andris Piebalgs stated in a speech that
+security of supply had become an important issue for the EU and that a
+``\textsl{clearer and more collective and cohesive policy on energy supply}''
+was needed\footnote{see Piebalgs (2006a)}.
+	
+
+
+	\end{itemize}
+
+
+    \section{Dispute 2007 -- 2008}
+
+\begin{itemize}
+
+
+\item  On October 2nd, 2007 Gazprom threatened to interrupt gas supplies to
+Ukraine if debt of \textdollar 1.3 billion for gas already delivered remained
+unpaid.
+
+\item On 5 January 2008 another warning was issued that if arrears of
+\textdollar 1.5 billion were not settled the supply of natural gas would be
+reduced.
+
+\item At the end of February 2008 Gazprom threatened to halt deliveries from 3 
+March on, in case gas shipments for 2008 were not paid in advance\footnote{BBC
+(2008)}.
+
+\item Supplies to Ukraine were reduced by 25\textdiscount{} on March 3rd and a
+further 25\textdiscount{} the day after.
+
+
+
+\end{itemize}
+
+
+    \section{Dispute 2008 -- 2009}
+
+
+\begin{itemize}
+
+\item Several disputes between Ukrainian and Russian gas/transit companies
+about prices and contract terms over the year 2008 saw Gazprom announcing in
+December 2009 that failure to reach an agreement for supplies would result in
+higher gas prices and eventually disruptions of supplies to Europe.
+
+  \begin{itemize}
+   \item Not only gas prices for 2009 were a point of contention, but also
+outstanding debt by Naftogaz\footnote{Le Figaro (2009)}
+  \end{itemize}
+
+\item Starting from 4 January 2009 gas flows from Russia to Ukraine fell and
+stopped completely on January 7th\footnote{Le Devoir (2009)}
+
+\item On 8 January 2009 the Czech presidency of the European Council released a
+statement in which both Russia and Ukraine were criticised for their lack of
+will to resolve their differences. In addition, the declaration demanded that
+both parties accept an independent mission made up of international experts
+monitoring the flow of gas\footnote{see Czech Presidency of the Council of the
+EU (2009)}.
+
+\item After German chancellor Angela Merkel had talked with Russian prime
+minister Vladimir Putin, the European Commission started negotiations with
+representatives from Gazprom and Russian state officials to set up a monitoring
+agreement including Ukraine.
+
+\item All three parties, Russia, Ukraine and the European Union signed an
+accord on an independent monitoring mission on 12 January,
+2009\footnote{see Pirani, Stern \& Yafimava (2009)} 
+
+\item The effects on gas supplies for EU member were considerable: Bulgaria,
+Slovakia, Greece, Austria and the Czeck Republic experienced drops in gas flows
+of more than 65\textdiscount{}. For the first time big member states were
+affected by the cutoff (supply reductions in parentheses): Germany
+(10\textdiscount{}), Italy (25\textdiscount{}), France (15\textdiscount{})
+
+\end{itemize}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{The Evolution Of EU Energy Policy}
+
+
+The three crises between 2005 and 2009 which affected gas supplies to member
+states to varying degrees offer a natural experiment on European energy policy.
+As explained above there was no explicit energy strategy the EU pursued up to
+this point in time, its institutions lacking the competences for doing so and
+national governments unwilling to follow the Commission's ambitions to integrate
+this policy field. From 2005 on, the European Union was recurringly confronted
+with external supply shocks that the hitherto approache to supply security,
+which can be qualified as rather \emph{Intergovernmentalist} had not faced
+before.\par
+
+In this section the paper will analyse which policy changes can be detected over
+the course of the gas disputes between Russia and Ukraine. This will be
+followed by a discussion on whether we can talk of structural evolution in
+primary law, which calls for a rethinking on the kind of approach political
+science should use when trying to explain the integration process in the area
+of energy. As has been hinted at in section 5 on Europe's earlier energy policy,
+arguably there have been noticeable modifications in the provisions of the
+Lisbon Treaty of 2007.\par
+
+
+
+  \paragraph{Extended Objectives Of EU Energy Strategy}
+
+Before the Treaty of Lisbon for the European Commission to become involved in
+energy policy had only been possible via the detour of initiating legislation in
+the areas 'common market' and 'environmental regulation'. It thus had to invoke
+'implicit powers' in articles 85, 100 and 308 of the ECT to justify actions on
+the Community level\footnote{Haghighi (2008), p.465}. Starting with its Green
+Paper 2000 \emph{Towards A European Strategy For The Security Of Energy Supply}
+the Commission defined a new objective for EU energy policy: security of energy
+supply. Since EU member are all, if to varying degrees, dependent on energy
+imports from non-EU countries this new focus also implied a greater role for the
+Union in foreign policy.\par
+
+
+
+  \section{New European Activism}
+
+
+	\paragraph{The Three Pillars Of Europe's Energy Strategy}
+
+By then, at least according to the Commissioner Andris Piebalgs'
+view\footnote{see Piebalgs (2006b)}, a common energy strategy was to be
+constructed on three pillars: 
+  \begin{inparaenum}[(1)] \item \emph{efficiency}, completion of the internal
+market so as to reap the expected welfare gains; \item \emph{sustainability}:
+fight against climate change, more efficient use of resources; \item
+\emph{security of supply}. \end{inparaenum} 
+The first two pillars evoked by the Commission for Energy fall into the classic
+realm of EU competences: \emph{Common Market} and \emph{Environmental Policy}.
+The third pillar was new and had become relevant only during the past decade
+when security of natural gas supplies had turned out to be far from assured for
+EU members\footnote{Winzer (2011), p.2}.\par
+
+
+      \paragraph{The Commission's Initiatives}
+
+Due to its limited competences in foreign energy policy as provided by the
+Community treaties (see European Community Treaty \& Treaty of the European
+Union), the European Commission used partnership agreements with neighbouring
+countries to further its objective of enhancing supply
+security\footnote{Prange-Gst\"ohl (2009),
+p.5296}\footnote{\textcolor{dunkelgrau.80}{This is not to imply that energy
+objectives were the only motives for the Commission to pursue these cooperation
+agreements, or that they were the most important goals.}}. Already in 2003 the
+Commission had expressed its intention to export internal market principals to
+Europe's immediate neighbours and most important partners in the energy
+sector\footnote{European Commission (2003), p.4}. Examples of the policy
+frameworks used to develop a European energy strategy are:
+  \begin{inparaitem}\item \emph{Black Sea Synergy} (2007)\footnote{ibid
+(2007a)}; \item \emph{EU Strategy For Central Asia} (2007)\footnote{ibid
+(2007b)}; \item \emph{Union For The Mediterranean} (2008)\footnote{ibid
+(2008a)}; \item \emph{Eastern Partnership} (2008)\footnote{ibid (2008c)}. 
+  \end{inparaitem}
+The \emph{Energy Charter Treaty} between the European Union and countries in
+the western Balkans is foremost example of this attempt to align neighbours'
+interests to those of the Union\footnote{Prange-Gst\"ohl (2009), p.5299}.
+Signed in 2005 the treaty's objective is the establishment of a common
+energy market between all its signatories. Non-EU countries are obliged to
+transpose the 'Acquis-Communautaire' for energy (internal market regulation \&
+institutions) into national law. So far Europe's main supplier Russia for
+natural gas has signed but then withdrawn from the Energy Charter Treaty,
+considerably limiting the effectiveness of this approach to energy
+security\footnote{Westphal (2011), p.2}.\par
+
+Contrary to \emph{Intergovernmentalist} assumptions the European Commission in
+this instance clearly takes on the role of an 'policy-entrepreneur'. Even if
+some form of encouragement from national governments through informal channels
+can not be excluded this supranational actors ostensibly aims to extend
+his own role in formulating foreign energy policy. Driving foward partnership
+agreements the European Commission may not have enlarged its actual powers in
+the EU institutional setting, but at least it thus secured its agenda-setting
+powers. \emph{Neo-Functionalism}'s factors for regional integration offer
+far more convincing explanations for this integration development.\par
+
+
+      \paragraph{Energy Action Plans}
+
+Only one year after the first gas conflict in January 2006 the European
+Council agreed in March 2007 on an ambitious comprehensive energy and climate
+strategy, named \emph{Energy Action Plan}  for the years 2007--2009
+(EAP)\footnote{see European Council (2007)}. In addition to giving energy
+efficiency and energy conservation priority for Europe's future energy strategy
+the EAP favours liberalized gas and electricity markets. More important for this
+analysis the action plan calls for bolstered measures to ensure supply security
+and for the first time defines a common approach to external energy
+policy\footnote{Umbach (2010), p.1234}.\par
+
+
+The next year the European Commission followed up the proposals made by the
+European Council by issuing a '\emph{2nd Strategy Energy Review}' along with a
+new '\emph{EU Energy Security and Solidarity Action Plan}'\footnote{see European
+Commission (2008b)}. Here it identified specific issues and weaknesses in
+existing EU policy that were obstacles to a truly integrated common energy
+strategy. Among the areas suggested for coordination and EU-level action three
+would have entailed either joint decision-making, thus relinquishing some
+national sovereignty in energy matters, or pooling resources to improve the
+supply situation of all member states: external relations with supplier
+countries, infrastructure needs and establishment of strategic reserves as
+potential crisis response mechanisms.\par
+
+
+	\paragraph{Change Induced By A Systemic Crisis}
+
+The crisis theory approach of J\"anicke and others on political change offers
+some explanations as to how this sudden flurry of activity by Commission and
+European Council has come about. The European Union fits the approach's notion
+of a political system as a group of actors which interact continuously with
+each other in more or less pre-determined structures\footnote{Hermann (1973),
+p.45}. The interruptions of gas flows in the years 2005 to 2010 can be seen as
+shocks that dramatically affected the critical variable of adequate energy
+supply, without which modern economies like Europe's will collapse. The change
+in this variable (diminishing flows of gas to certain EU members, calling into
+question energy supply) was sudden and unexpected. Thus it had not been
+anticipated by the political and economic system of the European Union. Since
+the entire society is affected by such a crisis that disrupts its economic life,
+the pressure on the political system to react to this dramatic change of the
+critical variable is immense. Thus we have a situation in which the system has
+to undergo either revolutionary change or modify its policy substantially to
+remain in place\footnote{Gurr (1973), p.66}.\par
+
+A clear-cut causality cannot be established here, but the EU-wide repercussions
+of the gas conflicts seem to have demonstrated to political leaders in Europe
+that a thorough rethink of the existing energy strategy was necessary. It is
+difficult to find a different, equally plausible explanation for the abrupt
+activity by EU institutions in the wake of the gas disputes where there had
+been no initiatives in the past, let alone any substantial integration
+progress. Equally the mere recognition that the question of supply security was
+an issue no longer to be exclusively left to individual member states implies a
+policy shift that points to the explanations proposed in this paper.\par
+
+
+
+	\paragraph{Unilateral Moves By Member States}
+
+The subsequent years did not see the implementation of the Commission's 2008
+proposals\footnote{Umbach (2010), p.1236}. Rather some member states opted for
+unilateral moves to garantuee gas flows in cases of Russian-Ukrainian
+conflicts\footnote{Financial Times (2009)}. German, Italian, Dutch and French
+gas companies, aided by political support from their national governments at the
+time, have concluded deals with Gazprom to build new gas pipelines that
+circumvent transit countries such as Ukraine and Poland. This would leave
+shipments via this transport infrastructure unaffected by future disputes
+between Russia and Ukraine that might see supply interruptions.\par
+
+The 'Nord Stream' project, which is made up of Russian \emph{Gazprom}, German
+\emph{E.ON} \& \emph{Wintershall}, Dutch \emph{Gasunie} and France's \emph{GDF
+Suez} has already been built and runs from Russia to Germany under the Baltic
+Sea, thus passing by the Baltic countries as well as Poland. The other project
+'South Stream' with participation from Russia's \emph{Gazprom}, Italian
+\emph{Eni}, in addition to French state-controlled electricity supplier
+\emph{\'{E}l\'{e}ctricit\'{e} de France} and German \emph{Wintershall}, is still
+under construction but to be completed in 2015. This pipeline will circumvent
+Ukraine, connecting Southern Russia with Bulgaria, again increasing security of
+gas supply for participating countries, but at the same time weakening the
+position of other EU member in Central \& Eastern Europe that depend on
+Ukraine-route to be reliable.\par
+
+
+
+
+\par
+
+
+  \section{Treaty Changes}
+
+
+The Treaty of Lisbon or 'Treaty on the Functioning of the European Community'
+(TFEU) saw a general shift from decision-making by unanimity to qualified
+majority voting in the European Council. The same holds for many aspects of
+energy policy. Article 194 TFEU provides that measures in the areas of energy
+taxation, the choice of national energy mix, and regulating the exploitation of
+energy resources are still to be decided by unanimity vote\footnote{Braun
+(2011), p.2}. Member states also keep their right to conduct bilateral
+energy relations with supplier countries as they see fit, although EU
+competition regulation applies nevertheless to any bilateral agreement. The
+European Parliament has been awarded an enhanced role, as its consent to the
+conclusion of any international treaties by the EU with third parties (i.e.
+supplier countries) is required\footnote{Art. 218 TFEU}.\par
+
+The revised Article 17 TEU remains ambiguous on the European Commission's role
+in external relations with third parties and the representation of a common
+position in energy questions. It states that: ``\textsl{with the exception of
+the common foreign and security policy [...], [the Commission] shall ensure the
+Union's external representation}''. Splitting up policy making in the external
+dimension of energy policy between the European Commission, the High
+Representative For Foreign Affairs and the rotating Council presidency (with the
+required consent of the European Parliament for international treaties)
+appears to make foreign energy policy rather complicated\footnote{Braun (2011),
+p.8}. At the same time the TEU declares that ``\textsl{the Union shall define
+and pursue common policies and actions and shall work towards a high degree of
+cooperation in all fields of international relations}''. The treaty
+modification confirms the European Commission's agenda-setting powers but only
+refers to its watchdog role as guardian of the Treaties, stopping short of
+actually delegating competences to enforce a common energy policy on
+non-compliant member states. In Braun's opinion the treaty changes
+provide new channels for external representation in international relations with
+third parties\footnote{ibid (2011), p.8}. Still, the important aspect of
+solidarity among members in crisis situations is not mentioned leaving the
+collective action dilemma of supply security unsolved.\par
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+ 
+\chapter{Conclusion}
+  
+This paper set out to apply competing theories of international relations,
+\emph{Neo-Realism}, \emph{liberal Intergovernmentalism} and
+\emph{Neo-Functionalism} to the European integration process in the field of
+energy policy. Whereas an \emph{Intergovernmentalist} approach fitted quite
+well the years preceding the Ukrainian-Russian gas conflicts, it has
+difficulties explaining the initiatives by the European Commission and
+the European Council to reach a common energy strategy in the latter half of the
+decade. Even taking into account the bilateral deals between Russia and some
+member states or their major energy companies, \emph{Intergovernmentalism}
+looses much of its explanatory power, as we should not see any changes in the
+legal foundations of the EU (Treaty of Lisbon \& TEU) which push forward the
+integration of energy policy. This shift stops short of being revolutionary
+though, thus a definitive judgment on the current state of policy is rather
+difficult to make.\par
+
+\emph{Neo-Functionalist} explanations do not seem too convincing either, as it
+is not clear why the 'spill-over effects' would take so long to make themselves
+felt and induce further integration moves in related policy fields. They are a
+rather weak predictor for future policy developments, if more than a decade has
+to pass since the establishment of the Common Market in 1992 until 'spill-overs'
+become effective enough to lead to more integration. For such a long time
+period we can rule out other factors determining the integration process.\par
+ 
+I argued that the changes in energy policy over time as described aboved
+appear to have been caused by external shocks which lead to a systemic crisis
+for the EU political system. The European Union was then forced to react to this
+change in the crucial variable of adequate energy supply. Further research is
+called for in order to determine which relative role these external shocks on
+the one hand and long-term functionalist spill-over effects, which may be hard
+to detect, exactly played in the policy shift, or whether a completely different
+explanation is needed. The paper can only suggest correlations, providing an
+unshakeable argument for causality in this regard is beyond its scope.\par
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Sources}
+
+  \begin{itemize}
+	
+	\sffamily
+	
+	
+	\item [\Rectsteel] \textbf{Aleklett, Kjell, Jakobsson, Kristofer,
+S\"oderbergh, Bengt (2010):} European Energy Security: An Analysis Of Future
+Russian Natural Gas Production And Exports, in: \textsl{Energy Policy}, Vol.
+38, p.7827-7843.
+	
+
+
+\item [\Rectsteel] \textbf{BBC (2006):} Ukraine gas row hits EU supplies 
+(\textcolor{dunkelgrau.80}{http://news.bbc.co.uk/2\\
+/hi/europe/4573572.stm} - accessed: 10/12/2012).	
+
+
+\item [\Rectsteel] \textbf{BBC (2006):} EU nations have started to feel the
+impact of Russia's axeing of gas supplies to Ukraine, as Moscow accused Kiev of
+stealing EU supplies (\textcolor{dunkelgrau.80}{
+http://newsvote.bbc.co.uk/mpapps/pagetools/print/news.bbc.co.uk/2/hi \\
+/europe/4573 572.stm} - accessed: 10/12/2012).
+	
+
+
+\item [\Rectsteel] \textbf{BBC (2008):} Gazprom to reduce Ukraine's gas 
+(\textcolor{dunkelgrau.80}{http://news.bbc.co.uk/2\\
+/hi/business/7271604.stm} - accessed: 10/12/2012).
+
+
+
+	\item [\Rectsteel] \textbf{Belkin, Paul, Nichol, Jim, Ratner,
+Michael \& Woehrel, Steven (2013):} Europe's Energy Security: Options And
+Challenges To Natural Gas Supply Diversification, \textsl{CRS Report for
+Congress}, Congressional Research Service, Washington, D.C..
+
+
+	
+	\item [\Rectsteel] \textbf{Blom-Hansen, Jens (2008):} The Origins Of
+The EU Comitology System: A Case Of Informal Agenda-Setting By The Commission,
+in: \textsl{Journal of European Public Policy}, Vol. 15, Issue 2, p.208-226.
+
+
+
+\item [\Rectsteel] \textbf{Bloomberg BusinessWeek (2012):} Gazprom Chases China
+as Europe Demand Falters: Russia Overnight (\textcolor{dunkelgrau.80}{
+http://www.businessweek.com/news/2012-02-20/gazprom-chases-china-as-europe-deman
+d-falters-russia-overnight.html} - accessed: 10/31/2012).
+
+
+
+	\item [\Rectsteel] \textbf{Boussena, Sadek (2010):} Les
+d\'{e}veloppements sur les march\'{e}s gaziers et leurs cons\'{e}quences sur les
+relations Russie-UE, \textsl{Cahier de recherche}, Issue 38, Laboratoire
+d'\'{e}conomie de la production et de l'int\'{e}gration internationale,
+Grenoble.
+
+
+
+	\item [\Rectsteel] \textbf{BP (2012):} Statistical Review Of World
+Energy 2012, London.
+
+
+
+	\item [\Rectsteel] \textbf{Braun, Jan Frederick (2011):} EU Energy
+Policy Under The Treaty Of Lisbon Rules: Between A New Policy And Business As
+Usual, in: \textsl{Working Paper No.31}, Centre For European Policy Studies,
+Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{Casier, Tom (2011):} The Rise Of Energy To
+The Top Of The EU-Russia Agenda: From Interdependence To Dependence, in:
+\textsl{Geopolitics}, Vol. 16, Issue 3. p.536-552
+
+
+
+\item [\Rectsteel] \textbf{Chicago Tribune (2009):} Russia threatens to cut gas
+to Ukraine (\textcolor{dunkelgrau.80}{http:// \\
+articles.chicagotribune.com/2009-01-01/news/0812310777\_1\_gazprom \\
+-officials-ukraine-and-russia-gas-shutdown} - accessed: 07/26/2012).
+
+
+
+	\item [\Rectsteel] \textbf{Clingendael Institute For International
+Relations [CIEP] (2004):} Study On Energy Supply Security And Geopolitics, 
+\textsl{Report on behalf of DG Energy \& Transport}, The Hague.
+
+
+
+	\item [\Rectsteel] \textbf{Correlj\'{e} , Aard \& van der Linde,
+Coby (2006):} Energy Supply Security And Geopolitics: A European Perspective,
+in: \textsl{Energy Policy}, Vol. 34, p.532-543.
+
+
+
+	\item [\Rectsteel] \textbf{Czech Presidency of the Council of the EU
+(2009):} Informal General Affairs Council Ended Today In Prague, \textsl{Press
+Release}, 8 January 2009, Prague.
+
+	
+
+	\item [\Rectsteel] \textbf{Davis, Christina L. (1994):} International
+Institutions And Issue Linkage: Building Support For International Trade
+Liberalization, in: \textsl{American Political Science Review}, Vol. 98, Issue 1
+p.153-169.
+
+
+
+\item [\Rectsteel] \textbf{Le Devoir (2009):} Les coupures de gaz affectent
+toute l'Europe (\textcolor{dunkelgrau.80}{http://www\\
+.ledevoir.com/2009/01/07/226068.html} - accessed: 12/06/2012).
+
+	
+
+	\item [\Rectsteel] \textbf{Dobbins, Michael, Schneider, Gerald \&
+Zimmer, Christine (2005):} The Contested Council: Conflict Dimensions Of An
+Intergovernmental EU Institution, in: \textsl{Political Studies}, Vol. 53,
+p.403-422.
+
+
+
+\item [\Rectsteel] \textbf{Energy Tribune (2011):} The High Stakes Pipeline
+Game (\textcolor{dunkelgrau.80}{
+http://www.\\
+energytribune.com/8883/the-high-stakes-pipeline-game} - accessed: 09/22\\
+/2012).
+
+
+
+\item [\Rectsteel] \textbf{EurActiv (2012):} Gazprom plans Vladivostok pipeline
+to lessen reliance on Europe (\textcolor{dunkelgrau.80}{
+http://www.euractiv.com/energy/gazprom-plans-vladivostok-pipeli-news-515761\_foo
+tnote{?}utm\_source=EurActiv\textdiscount20Newsletter\&utm\_\\
+campaign=f05a367d02-newsletter\_energy\&utm\_medium=email} - accessed:
+10/31/2012).
+
+
+
+	\item [\Rectsteel] \textbf{Eurogas (2007):} Long Term Outlook For Gas
+Demand And Supply 2007--2030, \textsl{The European Union of the Natural Gas
+Industry (Eurogas)}, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{Eurogas (2012):} Statistical Report 2012,
+\textsl{The European Union of the Natural Gas Industry (Eurogas)}, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2000):} Green Paper:
+Towards A European Strategy For The Security Of Energy Supply, \textsl{COM
+(2000)}, 769 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2003):} Communication
+From The Commission To The Council And The European Parliament On The
+Development Of Energy Policy For An Enlarged EU, Its Neighbours And Partners,
+\textsl{COM (2003)}, 262/3 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2006):} Green Paper:
+A European Strategy For Sustainable, Competitive And Secure Energy, \textsl{COM
+(2006)}, 317 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2007a):} An Energy
+Policy For Europe, \textsl{COM (2007)}, 1 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2007b):} Black Sea
+Synergy \textemdash{} A New Regional Cooperation Initiative, \textsl{COM
+(2007)}, 160 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2007c):} Regional
+Strategy Paper For Assistence To Central Asia For The Period 2007--2010,
+\textsl{COM (2007)}, 59 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2008a):} Barcelona
+Process, \textsl{COM (2008)}, 319 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2008b):} Communication
+From The Commission To The European Parliament, The Council, The European
+Economic And Social Committee And The Committee Of The Regions - Second
+Strategic Energy Review: An EU Energy Security And Solidarity Action Plan
+{SEC(2008) 2870} {SEC(2008) 2871} {SEC(2008) 2872}, \textsl{COM (2008)}, 781
+final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2008c):} Eastern
+Partnership, \textsl{COM (2008)}, 823 final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2009):} The January
+2009 Gas Supply Disruption To The EU: An Assessment, \textsl{SEC (2009)}, 977
+final, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Commission (2010):} Communication
+On Energy 2020: A Strategy For Competitive, Sustainable And Secure Energy,
+\textsl{COM (2010)}, 639/3, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Council (2007):} Presidency
+Conclusions March 8/9, \textsl{EC (2007)}, 7224/1/07 REV 1, CONCL 1, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Union (2006):} Consolidated Version
+Of The Treaty Establishing The European Community, in: \textsl{Official Journal
+C}, 321 E/37, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Union (2008):} Consolidated Version
+of the Treaty On The Functioning Of The European Community, in: \textsl{Official
+Journal C}, 115/47, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{European Union (2010):} Consolidated Version
+of the Treaty On European Union, in: \textsl{Official Journal C}, 83, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{Epstein, David \& O'Halloran, Sharyn
+(1994):} Administrative Procedures, Information, And Agency Discretion, in:
+\textsl{American Journal of Political Science}, Vol. 38, Issue 3, p.697-722.
+
+
+
+\item [\Rectsteel] \textbf{Le Figaro (2009):} Quand Poutine d\'{e}montre les
+torts du pr\'{e}sident ukrainien
+(\textcolor{dunkelgrau.80}{
+http://www.lefigaro.fr/international/2009/01/10/01003-20090110ARTFIG\\
+00201-quand - poutine-demontre-les-torts-du-president-ukrainien-.php} -
+accessed: 12/06/2012).
+
+
+
+\item [\Rectsteel] \textbf{Financial Times (2009):} Russia and Italy sign gas
+supply deal (\textcolor{dunkelgrau.80}{http://www\\
+.ft.com/intl/cms/s/0/afdd90d6-41a3-11de-bdb7-00144feabdc0.html} - \\
+accessed: 01/05/2013).
+
+
+
+	\item [\Rectsteel] \textbf{Franchino, Fabio (2000):} Control Of The
+Commission's Executive Functions: Uncertainty, Conflict And Decision Rules,
+in: \textsl{European Union Politics}, Vol. 1, Issue 1, p.63-92.
+
+
+
+	\item [\Rectsteel] \textbf{Franchino, Fabio (2007):} The Powers Of The
+Union: Delegation In The EU, Cambridge, UK.
+
+
+
+	\item [\Rectsteel] \textbf{Geld, Bernard A., Nichol, Jim, \&
+Woehrel, Steven (2006):} Russia's Cutoff Of Natural Gas To Ukraine: Context And
+Implications, \textsl{CRS Report for Congress}, Congressional Research Service,
+Washington, D.C..
+
+
+
+	\item [\Rectsteel] \textbf{Goldthau, Andreas (2012):} A Public Policy
+Perspective On Global Energy Security, in: \textsl{International Studies
+Perspectives}, Vol. 13, Issue 1, p.65-84.
+
+
+
+	\item [\Rectsteel] \textbf{Gurr, Ted R. (1973):} Vergleichende
+Analyse von Krisen und Rebellionen, in: \textbf{J\"anicke, Martin
+(ed.):} Herrschaft und Krise: Beitr\"age zur politikwissenschaftlichen
+Krisenforschung, p. 64-89, Opladen.
+
+
+
+	\item [\Rectsteel] \textbf{Haas, Ernst Bernard (1958):} The Uniting Of
+Europe: Political, Social, And Economic Forces 1950-1957, London.
+
+
+
+	\item [\Rectsteel] \textbf{Haas, Ernst Bernard (1961):} International
+Integration: The European Union And The Universal Process, in:
+\textsl{International Organization}, Vol.15, Issue 4, p.366-392.
+
+
+
+	\item [\Rectsteel] \textbf{Haas, Ernst Bernard (1964):} Beyond The
+Nation-State: Functionalism And International Organization, Stanford.
+
+
+
+	\item [\Rectsteel] \textbf{Haghighi, Sanam S. (2008):} Energy Security
+And The Division Of Competences Between The European Community And Its Member
+States, in: \textsl{European Law Journal}, Vol. 14, Issue 4, p.461-482.
+
+
+
+	\item [\Rectsteel] \textbf{Hermann, Charles F. (1973):} Indikatoren
+internationaler politischer Krisen, in: \textbf{J\"anicke, Martin
+(ed.):} Herrschaft und Krise: Beitr\"age zur politikwissenschaftlichen
+Krisenforschung, p. 44-63, Opladen.
+
+
+	\item [\Rectsteel] \textbf{Horsnell, Paul (2000):} The Probability of
+Oil Market Disruption: With an Emphasis on the Middle East. Working Paper for
+The James A. Baker III Institute for Public Policy, Houston.
+
+
+
+	\item [\Rectsteel] \textbf{Institut f\"ur Europ\"aische Politik (2013):}
+Europe's Energy Future \textemdash{} Natural Gas Supply Between Geopolitics And
+The Markets: The Future Role Of Natural Gas - Trends And Projections For Demand
+And Supply In 2030, \textsl{Study cofinanced by Statoil, Otto Wolff-Stiftung \&
+The Royal Norwegian Ministry of Foreign Affairs}, Berlin.
+
+
+
+	\item [\Rectsteel] \textbf{International Energy Agency (2001):}
+Towards A Sustainable Energy Supply, Paris.
+
+
+
+	\item [\Rectsteel] \textbf{International Energy Agency (2012):}
+World Energy Outlook 2012, Paris.
+
+
+
+	\item [\Rectsteel] \textbf{Kelstrup, Morten (1998):} Integration
+Theories: History, Competing Approaches And New Perspectives, in:
+\textbf{Wivel, Anders (ed.):} Explaining European Integration, p.15-55,
+Copenhagen.
+
+
+
+	\item [\Rectsteel] \textbf{Kiewiet, D. Roderick \& McCubbins, Mathew D.
+(1991):} The Logic Of Delegation. Congressional Parties And The Appropriations
+Process, Chicago.
+
+
+
+	\item [\Rectsteel] \textbf{Kj\"arstad, Jan \& Johnsson, F. (2011):}
+Prospects Of The European Gas Market, in: \textsl{Energy Policy}, Vol. 35,
+p.869-888.
+
+
+
+	\item [\Rectsteel] \textbf{Le Coq, Chlo\'{e} \& Paltseva, Elena (2011):}
+Assessing Gas Transit Risks: Russia Vs. The EU, in: \textsl{Working
+Paper No.12}, Stockholm Institute of Transition Economics, Stockholm.
+
+
+
+	\item [\Rectsteel] \textbf{Lindberg, Leon N. \& Scheingold, Stuart Allen
+(1970):} Europe's Would-Be Polity: Pattern Of Change In The European Community,
+Englewood Cliffs.
+
+
+
+
+	\item [\Rectsteel] \textbf{Manners, Ian (2013):} European Communion:
+Political Theory Of European Union, in: \textsl{Journal of European Public
+Policy}, Vol. 20, Issue 4, p.473-494.
+
+
+
+	\item [\Rectsteel] \textbf{Mastenbroek, Ellen \& Veen, Tim (2008):}
+Last Words On Delegation?: Examining 'The Powers Of The Union', in:
+\textsl{European Union Politics}, Vol. 9, Issue 2, p.295-311.
+
+
+
+	\item [\Rectsteel] \textbf{McCubbins, Mathew D. \& Page, Talbot
+(1987):} A Theory Of Congressional Delegation, in: McCubbins, Mathew
+D. \& Sullivan, T. (eds): \textsl{Congress: Structure And Policy}, p.409-425,
+Cambridge, MA, United States of America.
+
+
+	
+	\item [\Rectsteel] \textbf{Moravcsik, Andrew (1993):} Preferences And
+Power In The European Community: A Liberal Intergovernmentalist Approach, in:
+\textsl{Journal of Common Market Studies}, Vol. 31, Issue 4, p.473-524.	
+
+
+	
+	\item [\Rectsteel] \textbf{Moravcsik, Andrew (1995):} Liberal
+Intergovernmentalism And Integration: A Rejoinder, in:
+\textsl{Journal of Common Market Studies}, Vol. 33, Issue 4, p.611-628.
+
+
+
+	\item [\Rectsteel] \textbf{Moravcsik, Andrew (1997):} Taking
+Preferences Seriously: A Liberal Theory Of International Politics, in:
+\textsl{International Organization}, Vol. 51, Issue 4, p.513-553.
+
+
+
+	\item [\Rectsteel] \textbf{Nies, Susanne (2008):} Oil And Gas Delivery
+To Europe: An Overview Of Existing And Planned Infrastructure,
+\textsl{\'{E}tude}, Institut fran\c{c}ais des relations internationales, Paris.
+
+
+	\item [\Rectsteel] \textbf{Pick, Lisa (2012):} EU-Russia Energy
+Relations: A Critical Analysis, in: \textsl{POLIS Journal}, Vol. 7, Summer 2012,
+p.322-365.
+
+
+
+	\item [\Rectsteel] \textbf{Piebalgs, Andris (2006a):} Speaking Notes 
+Welcoming The Agreement Between Gazprom And Naftogaz, \textsl{SPEECH/06/01},
+Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{Piebalgs, Andris (2006b):} External
+Projection Of The EU Internal Energy Market, \textsl{SPEECH/06/712}, Brussels.
+
+
+
+	\item [\Rectsteel] \textbf{Pirani, Simon, Stern, Jonathan \& Yafimava,
+Katja (2009):} The Russo-Ukrainian Gas Dispute Of January 2009: A Comprehensive
+Assessment, The Oxford Institute For Energy Studies, Cambridge, UK.
+
+
+
+	\item [\Rectsteel] \textbf{Pointvogel, Andreas (2009):} Perceptions,
+Realities, Concession: What Is Driving The Integration Of European Energy
+Policies?, in: \textsl{Energy Policy}, Vol. 37, p.5704-5716.
+
+
+
+	\item [\Rectsteel] \textbf{Pollack, Mark A. (1997):} Delegation, Agency,
+And Agenda Setting In The European Community, in: \textsl{International
+Organization}, Vol. 51, p.99-134.
+
+
+
+	\item [\Rectsteel] \textbf{Pollack, Mark A. (2001):} International
+Relations Theory And European Integration, in: \textsl{Journal of Common
+Market Studies}, Vol. 39, Issue 2, p.221-244.
+
+
+
+	\item [\Rectsteel] \textbf{Pollack, Mark A. (2003):} The Engines Of
+European Integration: Delegation, Agency And Agenda Setting In The EU, Oxford,
+UK.
+
+
+
+	\item [\Rectsteel] \textbf{Prange-Gst\"ohl, Heiko (2009):} Enlarging
+The EU's Internal Energy Market: Why Would Third Countries Accept EU Rule
+Export?, in: \textsl{Energy Policy}, Vol. 37, p.5296-5303.
+
+
+
+\item [\Rectsteel] \textbf{Reuters (2009):} FACTBOX - 18 countries affected by
+Russia-Ukraine gas row (\textcolor{dunkelgrau.80}{
+http://www.reuters.com/article/2009/01/07/uk-russia-ukraine-gas-\\
+factbox-idUKTRE5 062Q520090107?sp=true} - accessed: 04/09/2013).
+
+
+
+\item [\Rectsteel] \textbf{Reuters (2012):} Russia, China resolve oil pricing
+dispute - paper (\textcolor{dunkelgrau.80}{http://\\
+www.reuters.com/article/2012/02/28/russia-china-oil-idUSL5E8DS01V201\\
+20228} - accessed: 09/11/2012).
+
+
+
+	\item [\Rectsteel] \textbf{Rosner, Kevin (2006):} Gazprom And The
+Russian State, London.
+
+
+
+	\item [\Rectsteel] \textbf{Schmidt-Feltzmann, Anke (2011):} EU Member
+States' Energy Relations With Russia: Conflicting Approaches To Securing
+Natural Gas Supplies, in: \textsl{Geopolitics}, Vol. 16, Issue 3, p.574-599.
+
+
+
+	\item [\Rectsteel] \textbf{Schmitter, Philippe C. (1969):}
+Three Neofunctional Hypotheses About International Integration, in:
+\textsl{International Organizations}, Vol.23, p.161-166.
+
+
+
+	\item [\Rectsteel] \textbf{Stefanova, Boyka (2012):} European
+Strategies For Energy Security In The Natural Gas Market, in: \textsl{Journal
+of Strategic Security}, Vol. 5, Issue 3, p.51-68.
+
+
+
+	\item [\Rectsteel] \textbf{Stern, Jonathan (2006):} The
+Russian-Ukrainian Gas Crisis Of January 2006, The Oxford Institute For Energy
+Studies, Cambridge, UK.
+
+
+
+\item [\Rectsteel] \textbf{The Telegraph (2008):} Russia threatens to cut gas
+supplies over Ukraine's unpaid bills (\textcolor{dunkelgrau.80}{
+http://www.telegraph.co.uk/earth/energy/gas/3901414/Russia-threatens-to-cut-gas-
+supplies-over-Ukraines-unpaid-bills.html} - accessed:\\
+07/26/2012).
+
+
+
+	\item [\Rectsteel] \textbf{Umbach, Frank (2010):} Global Energy
+Security And The Implications For The EU, in: \textsl{Energy Policy}, Vol.
+38, p.1229-1240.
+
+
+
+	\item [\Rectsteel] \textbf{Waltz, Kenneth (1979):} Theory Of
+International Politics, Reading, MA.
+
+
+
+	\item [\Rectsteel] \textbf{Warleigh-Lack, Alex (2006):} Towards A
+Conceptual Framework For Regionalisation: Bridging 'New Regionalism' And
+'Integration Theory', in: \textsl{Review Of International Political Economy},
+Vol. 13, Issue 4, p.750-771.
+
+
+
+	\item [\Rectsteel] \textbf{Westphal, Kirsten (2011):} The Energy
+Charter Treaty Revisited, \textsl{SWP Comments}, No.8, March 2011, Stiftung
+Wissenschaft und Politik, Berlin.
+
+
+
+	\item [\Rectsteel] \textbf{Winzer, Christian (2011):} Conceptualizing
+Energy Security, \textsl{EPRG Working Paper No. 1123}, Electricity Policy
+Research Group, University of Cambridge, Cambridge, UK.
+
+
+
+  \end{itemize}
+
+
+
+
+\end{document}
