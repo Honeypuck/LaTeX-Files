@@ -10,3 +10,5 @@
 \contentsline {subsection}{\numberline {2.3}Mitgliedsbeitr\IeC {\"a}ge [von: \leavevmode {\color {hellgrau.60}\textsl {Reinhard Peiler}}]}{4}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Bericht des Kassenwarts [von: \leavevmode {\color {hellgrau.60}\textsl {Frank Hildebrecht}}]}{4}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Bericht zum Server [von: \leavevmode {\color {hellgrau.60}\textsl {Lutz Willek}}]}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Bericht zur K\IeC {\"u}che [von: \leavevmode {\color {hellgrau.60}\textsl {Lutz Matscholl}}]}{5}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Bericht zu Buchrezensionen [von: \leavevmode {\color {hellgrau.60}\textsl {Claus Sch\IeC {\"a}fer}}]}{5}{subsection.2.7}
