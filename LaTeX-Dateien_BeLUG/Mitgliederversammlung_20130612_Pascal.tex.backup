@@ -178,11 +178,68 @@ anteiligen Beitrag entrichten.
   \subsection{Bericht zum Server [von: 
 \textcolor{hellgrau.60}{\textsl{Lutz Willek}}]}
 
+Bei \textsl{Thomas Krenn AG} wurde für 900 EUR ein neuer Server angeschaft, der 
+mit einem Stromverbrauch von 145W deutlich sparsamer ist, als der Vorläufer. 
+Hieraus ergeben sich geschätzt Kosteneinsparungen von ungefähr 200 EUR.
 
 
-\newpage{}
+  \subsection{Bericht zur Küche [von: 
+\textcolor{hellgrau.60}{\textsl{Lutz Matscholl}}]}
+
+Leider mussten wir feststellen, dass der Abfluss in der Küche zum unzähligsten 
+Male verstopft ist. Gerhard Lüdtke ist nach beträchtlichem Zeit- \& Geldeinsatz 
+nicht mehr bereit, die Pumpe ein weiteres Mal zu reparieren. Jetziger Plan: 
+zusammen mit dem IN-Berlin soll eine Tür oder ähnliches installiert werden, 
+damit die Küche abgesperrt werden kann. Der Schlüssel hierfür soll nur 
+kontrolliert herausgegeben werden.
 
 
-\newpage{}
+  \subsection{Bericht zu Buchrezensionen [von: 
+\textcolor{hellgrau.60}{\textsl{Claus Schäfer}}]}
+
+Die Buchrezensionen sind für die BeLUG sehr einträglich, da sie für viele 
+Besucher der Webseite der Einstieg sind, das heißt sie kommen auf der Suche 
+nach einer speziellen Buchbesprechung zu uns. Leider stehen weiterhin drei 
+Buchrezensionen aus, die noch abgeliefert werden müssen.
+
+
+  \subsection{Bericht zu kommenden Vorträgen [von: 
+\textcolor{hellgrau.60}{\textsl{Sebastian Andres}}]}
+
+Für das zweite Halbjahr 2013 sind zwei Vorträge fest eingeplant mit den Themen: 
+\textsl{Router} und \textsl{Solaris}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{TOPIC III: Geplante Aktivitäten im 2. Halbjahr 2013}
+
+
+  \subsection{Helfergrillen}
+  
+Am 19. Juni wird das Helfergrillen in der Kulturfabrik stattfinden, um uns so 
+bei den Helfern am LinuxTag für ihren Einsatz zu bedanken. Thorsten Stöcker 
+bietet seine Hilfe beid der Vorbereitung des Helfergrillens an, obwohl er 
+selbst nicht am LinuxTag präsent war.
+
+
+
+  \subsection{Software Freedom Day}
+  
+Unser Engagement am Software Freedom Day (21.September) hängt von der 
+Unterstützung der \emph{Free Software Foundation Europe} (FSFE) ab, das heißt 
+ob ein Workshop angeboten wird oder nicht.
+
+
+\subsection{Linux Install Partys an Berliner Universitäten}
+
+Dieses Jahr möchten wir neben der Unterstützung für Linux Install Partys an der 
+Humboldt-Universität und der Technischen Universität auch der Linux-Gruppe 
+SPLINE (Studentisches Projekt Linux Netzwerke) der Freien Universität unsere 
+Hilfe anbieten.
+
+
+
+
+
 
 \end{document}
