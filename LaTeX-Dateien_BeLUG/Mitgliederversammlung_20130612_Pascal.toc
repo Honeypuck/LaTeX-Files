@@ -21,4 +21,7 @@
 \contentsline {subsection}{\numberline {4.1}Projekt: Raspberry Pi als Multimedia-Zentrale}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Projekt: eLAB}{6}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Projekt: Spacenet}{6}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Themenabende}{6}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Projekt: Printserver}{6}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Webseite der BeLUG}{7}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Themenabende}{7}{subsection.4.6}
+\contentsline {section}{\numberline {5}TOPIC V: Verschiedenes}{7}{section.5}
