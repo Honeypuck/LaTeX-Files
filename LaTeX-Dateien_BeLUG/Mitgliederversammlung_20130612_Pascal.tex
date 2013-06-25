@@ -8,12 +8,19 @@
 \usepackage[ngerman]{babel}
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
- breaklinks=true,pdfborder={0 0 0},backref=section,colorlinks=false]
- {hyperref}
+ breaklinks=true,pdfborder={0 0 
+0},backref=section,colorlinks=true,urlcolor=blue]{hyperref}
 \usepackage{breakurl}
 \usepackage{lastpage}
 \usepackage{textcomp}
 \usepackage[official]{eurosym}
+
+%%%keine Monospace-Schriftart für Hyperlinks
+\newcommand{\urlwofont}[1]
+{
+\urlstyle{same}\url{#1}
+}
+
 
 %%%verkleinert den Abstand bei Listen und Aufzählungen zwischen denm einzelnen 
 %%%Punkten
@@ -180,10 +187,16 @@ den Verein ihren anteiligen Beitrag entrichten.
   \subsection{Bericht zum Server [von: 
 \textcolor{hellgrau.60}{\textsl{Lutz Willek}}]}
 
-Bei \textsl{Thomas Krenn AG} wurde für 900 EUR ein neuer Server angeschafft, 
-der mit einem Stromverbrauch von 145W deutlich sparsamer ist, als der 
-Vorgänger. Hieraus ergeben sich geschätzte Kosteneinsparungen von ungefähr 200 
-EUR.
+Dank einer zweckgebundenen Spende von \emph{Six Minutes Media} und einer 
+weiteren Spende der \emph{qipu GmbH} von gesamt über 1700 Euro konnte endlich 
+für die BeLUG ein neuer Server angeschafft werden. Dieser neue Server löst den 
+Desktop-Rechner ab, der bisher für diesen Zweck verwendet wurde. Neben den 
+verbesserten Verwaltungsmöglichkeiten ist dieser Server deutlich 
+leistungsfähiger und gleichzeitig stromsparender als sein Vorgänger. Der Server 
+kostete etwa 800 Euro, spart im Vergleich zum vorherigen Setup etwa 50 W ein. 
+Der Desktop-Rechner konnte einem anderen Zweck zugeführt werden. Herzlichen 
+Dank an die Spender, die mit Ihrer Spende den neuen Server erst ermöglicht 
+haben.
 
 
   \subsection{Bericht zur Küche [von: 
@@ -261,13 +274,21 @@ Institutionalisierung des Projekts, das \emph{eLAB} ist kein Verein.
 
   \subsection{Projekt: Spacenet}
 
-Ein Radioserver soll eingerichtet werden, der allen Besuchern von Hackerspaces 
-weltweit einfachen Internetzugang mit nur geringem Aufwand bereitstellt. Die 
-Identifikation erfolgt per Emailadresse. Dank gespendeter Hardware sind die 
-Voraussetzungen für die Arbeit an diesem Projekt gegeben. Jedoch haben 
+\urlwofont{https://www.in-berlin.de/provider/spacenet.html}\\
+\\
+Ein Radiusserver soll eingerichtet werden, der allen BeLUG-Mitgliedern 
+weltweit einfachen Internetzugang in Hackerspaces bereitstellt. Gleichzeitig 
+soll ein WLAN-Zugangspunkt in den BeLUG-Räumen aufgebaut werden, der für 
+Besucher mit eigener Spacenet-Kennung einen Internet-Zugang bietet. Dank der 
+von Lutz Willek gespendeten Hardware sind die Voraussetzungen für die Arbeit an 
+diesem Projekt gegeben. Jedoch haben weder Lutz Willek als Initiator, noch 
 Sebastian Andres und Ralf Vögtle aufgrund ihrer Übernahme des Projektes 
-\emph{Printserver} keine Zeit mehr für das Projekt \emph{Spacenet} und suchen 
-hierfür Nachfolger.
+\emph{Printserver} Zeit und suchen Mitglieder, welches dieses für die BeLUG sehr 
+wichtige Projekt starten können. Sowohl der IN-Berlin, als auch Lutz Willek 
+haben Hilfe bei eventuell auftauchenden Problemen zugesagt. An diesem Projekt 
+interessierte Mitglieder melden sich bitte beim Vorstand, der dann die 
+Bereitstellung der Hardware organisiert und die Zugangsdaten zu \emph{Spacenet} 
+weitergibt.
 
 
 

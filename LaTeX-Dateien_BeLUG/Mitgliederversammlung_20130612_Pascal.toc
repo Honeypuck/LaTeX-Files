@@ -13,15 +13,15 @@
 \contentsline {subsection}{\numberline {2.6}Bericht zur K\IeC {\"u}che [von: \leavevmode {\color {hellgrau.60}\textsl {Lutz Matscholl}}]}{5}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Bericht zu Buchrezensionen [von: \leavevmode {\color {hellgrau.60}\textsl {Claus Sch\IeC {\"a}fer}}]}{5}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}Bericht zu kommenden Vortr\IeC {\"a}gen [von: \leavevmode {\color {hellgrau.60}\textsl {Sebastian Andres}}]}{5}{subsection.2.8}
-\contentsline {section}{\numberline {3}TOPIC III: Geplante Aktivit\IeC {\"a}ten im 2. Halbjahr 2013}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Helfergrillen}{5}{subsection.3.1}
+\contentsline {section}{\numberline {3}TOPIC III: Geplante Aktivit\IeC {\"a}ten im 2. Halbjahr 2013}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Helfergrillen}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Software Freedom Day}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Linux Install Partys an Berliner Universit\IeC {\"a}ten}{6}{subsection.3.3}
 \contentsline {section}{\numberline {4}TOPIC IV: Projekte}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}Projekt: Raspberry Pi als Multimedia-Zentrale}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Projekt: eLAB}{6}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Projekt: Spacenet}{6}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Projekt: Printserver}{6}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Projekt: Printserver}{7}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Webseite der BeLUG}{7}{subsection.4.5}
 \contentsline {subsection}{\numberline {4.6}Themenabende}{7}{subsection.4.6}
 \contentsline {section}{\numberline {5}TOPIC V: Verschiedenes}{7}{section.5}
